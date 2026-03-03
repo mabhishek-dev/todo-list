@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(237, 237, 237);
+}
+h1 {
+  text-align: center;
+}
+
+p {
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#floating-theme {
+  position: fixed;
+  top: 10px;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(55, 55, 55);
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
